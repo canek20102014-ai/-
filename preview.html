@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Технические работы</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: #071a0f;
+            color: #ffffff;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 650px;
+            padding: 50px 30px;
+            text-align: center;
+            border: 1px solid #20c56a;
+            border-radius: 20px;
+            background: #0b2415;
+            box-shadow: 0 0 40px rgba(32, 197, 106, 0.2);
+        }
+
+        .error {
+            font-size: 90px;
+            font-weight: 800;
+            color: #20c56a;
+            text-shadow: 0 0 25px rgba(32, 197, 106, 0.5);
+        }
+
+        h1 {
+            margin: 10px 0 15px;
+            font-size: 28px;
+        }
+
+        p {
+            color: #a8cbb4;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .status {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 18px;
+            border-radius: 30px;
+            background: #123d22;
+            color: #43e982;
+            font-size: 14px;
+        }
+
+        .line {
+            width: 60px;
+            height: 3px;
+            margin: 25px auto;
+            background: #20c56a;
+            border-radius: 10px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #63836e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="error">404</div>
+
+        <div class="line"></div>
+
+        <h1>Временно недоступно</h1>
+
+        <p>
+            На сайте сейчас проводятся технические работы.
+            <br>
+            Пожалуйста, зайдите позже.
+        </p>
+
+        <div class="status">
+            ● Технические работы
+        </div>
+
+        <div class="footer">
+            Ошибка 404 · Страница временно недоступна
+        </div>
+    </div>
+
+</body>
+</html>
